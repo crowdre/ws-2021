@@ -23,7 +23,7 @@ for (let i = 0; i < originalTime.length; i++)
   
   if (tzTime.format("MMM D") != momentTime.format("MMM D"))
   {
-  	  var formattedTime = tzTime.format('HH:mm') + " (" + tzTime.format("MMM D") + ")";
+  	  var formattedTime = tzTime.format('HH:mm') + " (Sept 22)";
   }
   else
   {
